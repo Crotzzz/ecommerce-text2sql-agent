@@ -104,7 +104,7 @@ generate_sql ──► validate_sql（EXPLAIN）
 ## 📁 项目结构
 
 ```text
-shopkeeper-agent/
+ecommerce-text2sql-agent/
 ├── app/
 │   ├── agent/            # LangGraph 图、状态、上下文和各类节点
 │   ├── api/              # FastAPI 路由、依赖注入、生命周期和请求结构
@@ -136,8 +136,8 @@ shopkeeper-agent/
 ### 2. 获取代码
 
 ```bash
-git clone https://github.com/Crotzzz/shopkeeper-agent.git
-cd shopkeeper-agent
+git clone https://github.com/Crotzzz/ecommerce-text2sql-agent.git
+cd ecommerce-text2sql-agent
 ```
 
 ### 3. 安装后端依赖
