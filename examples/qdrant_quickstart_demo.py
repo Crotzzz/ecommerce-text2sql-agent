@@ -8,7 +8,8 @@ import asyncio
 
 from qdrant_client import AsyncQdrantClient, models
 
-QDRANT_URL = "http://localhost:6333"
+QDRANT_URL = "http://127.0.0.1:6333"
+# QDRANT_URL = "http://localhost:6333"
 COLLECTION_NAME = "quickstart_demo"
 VECTOR_SIZE = 4
 
